@@ -1,0 +1,59 @@
+/* 
+principal= #1ca3db
+comlementario= #1c44db
+acentuacion= #1cdbb3
+
+FONT= Montserrat
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+*/
+
+*{
+    margin: 0;
+    font-family: montserrat;
+}
+header{
+    text-align: center;
+    padding-top: 20px;
+    background-image: linear-gradient(to bottom, #1ca3db, #1c44db);
+}
+nav{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    background-color: #1c44db;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.281);
+    
+}
+nav a{
+    margin: 0px 25px 0px 25px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #1cdbb3;
+    font-weight: bold;
+}
+
+section{
+    background-color: rgba(128, 128, 128, 0.171);
+    margin: 20px ;
+}
+
+h2{
+    text-align: center;
+    background-image: linear-gradient(to right, #1ca2db00, #1c45db02);
+}
+
+.agora{
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+    text-align: center;
+}
+.semanal{
+    width: 80px;
+    background-color: blue;
+}
